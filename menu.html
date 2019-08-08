@@ -37,7 +37,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
-</script> 
+</script>
+    <script>
+        $(function(){
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
@@ -168,48 +174,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //team -->
 	<!-- //about -->
 	<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="w3agile_footer_grids">
-				<div class="col-md-3 agileinfo_footer_grid">
-					<div class="agileits_w3layouts_footer_logo">
-						<h5><a href="index.html">The Lindenbaum's</a></h5>
-						<div class="agileinfo-social-grids">
-							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-rss"></i></a></li>
-								<li><a href="#"><i class="fa fa-vk"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_footer_grid">
-				</div>
-				<div class="col-md-4 agileinfo_footer_grid">
-					<h3>Contact Info</h3>
-					<h4>Email Us <span>lindyWedding@gmail.com</span></h4>
-					<p>Grand Rapids, MI</p>
-				</div>
-				<div class="col-md-2 agileinfo_footer_grid agileinfo_footer_grid1">
-					<h3>Navigation</h3>
-					<ul class="w3layouts_footer_nav">
-						<li><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Our Story</a></li>
-						<li><a href="gallery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gallery</a></li>
-						<li><a href="groomsmen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Groomsmen</a></li>
-						<li><a href="bridesmaids.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Bridesmaids</a></li>
-						<li><a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-		<div class="w3_agileits_footer_copy">
-			<div class="container">
-				<p>© 2017 The Lindenbaum's. All rights reserved | Design by <a href="http://w3layouts.com">Nathan Lindenbaum</a></p>
-			</div>
-		</div>
-	</div>
+    <div id="footer" class="footer">
+    </div>
 	<!-- //footer -->
 	<script src="js/jarallax.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>
