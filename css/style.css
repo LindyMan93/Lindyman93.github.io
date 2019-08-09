@@ -584,7 +584,7 @@ i.fa.fa-quote-right {
     left: -57%;
     top: 10%;
     width: 70%;
-	border-bottom: 2px solid #fa3d03;
+	border-bottom: 2px solid #65b126;
 }
 .agile_events_grid_pos_sub{
 	position: absolute;
@@ -623,7 +623,7 @@ i.fa.fa-quote-right {
 }
 .agile_events_grid_pos1 h5{
 	font-size: 1em;
-    color: #FF9800;
+    color: #65b126;
     font-weight: 600;
     position: relative;
 }
