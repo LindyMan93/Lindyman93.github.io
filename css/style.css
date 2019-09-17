@@ -37,7 +37,8 @@ body{
     color: #FFFFFF;
     font-size: 1.5em;
     text-decoration: none;
-    font-family: Saab;
+    text-transform: uppercase;
+    font-family: "Noto Sans CJK SC Light";
     letter-spacing: 3px;
 }
 /*-- //header-left --*/
@@ -228,7 +229,7 @@ ul.dropdown-menu li{
 	text-align: center;
     font-size: 3em;
     margin: 0;
-    font-family: Saab;
+    font-family: "Noto Sans CJK SC Light";
 }
 .welcome-agileitsrow,.w3ls_team_grids{
 	margin:4em 0 0 0;
@@ -679,7 +680,7 @@ i.fa.fa-quote-right {
     color: #FFFFFF;
     font-size: 3em;
     text-decoration: none;
-    font-family: Saab;
+    font-family: "Noto Sans CJK SC Light";
     letter-spacing: 3px;
 }
 .agile-footer-grid ul {
@@ -858,7 +859,7 @@ i.fa.fa-quote-right {
     font-size: 2em;
     color: #212121;
     margin: 0;
-    font-family: Saab;
+    font-family: "Noto Sans CJK SC Light";
 }
 .w3layouts_breadcrumbs_left ul li a:hover{
     color: #a0d034;
@@ -1160,7 +1161,7 @@ a.w3_agile_dribble:hover{
     font-size: 2em;
     width: 90%;
     margin: 0 auto;
-    font-family: Saab;
+    font-family: "Noto Sans CJK SC Light";
     letter-spacing: 3px;
 }
 .item-type-double .item-info .line {
