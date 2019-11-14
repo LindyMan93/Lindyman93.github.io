@@ -92,10 +92,12 @@ ul.nav.navbar-nav {
 	border-left: none;
 }
 .top-nav ul li a:hover{
-    color: #a0d034 !important;
+    color: #9d9d9d !important;
+    font-size: large;
 }
 .top-nav ul li a.active{
-	color: #a0d034 !important;
+    color: #9d9d9d !important;
+    font-size: large;
     background: none;
 }
 ul.dropdown-menu {
@@ -218,7 +220,7 @@ ul.dropdown-menu li{
 }
 .w3ls-button a:hover {
 	color: #FFFFFF;
-    background: #a0d034;
+    background: #000000;
     border: solid 2px #FFFFFF;
 }
 /*-- w3-banner --*/
@@ -256,7 +258,7 @@ ul.dropdown-menu li{
     border: solid 1px #ececec;
 }
 .welcome h4 {
-    color: #a0d034;
+    color: #000000;
     font-size: 1.2em;
     margin: 0;
     text-transform: uppercase;
@@ -300,7 +302,7 @@ ul.dropdown-menu li{
     height: 80px;
     background: #FFFFFF;
     text-align: center;
-    color: #a0d034;
+    color: #000000;
     font-size: 2em;
     padding: .6em 0 0 0;
     border-radius: 50%;
@@ -328,7 +330,7 @@ ul.dropdown-menu li{
     -ms-transition: 0.5s all;
 }
 .services-icon:hover div.services-icon-info {
-    background: #a0d034;
+    background: #000000;
     color: #FFFFFF;
 }
 .agile-services-left-grid:last-child{
@@ -559,7 +561,7 @@ i.fa.fa-quote-right {
     height: 10px;
     width: 10px;
     display: inline-block;
-    background: #a0d034;
+    background: #000000;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
@@ -586,14 +588,14 @@ i.fa.fa-quote-right {
     left: -57%;
     top: 10%;
     width: 70%;
-	border-bottom: 2px solid #65b126;
+	border-bottom: 2px solid #000000;
 }
 .agile_events_grid_pos_sub{
 	position: absolute;
     right: -57%;
     top: 10%;
     width: 70%;
-	border-bottom: 2px solid #65b126;
+	border-bottom: 2px solid #000000;
 }
 .agile_events_grid_pos1 h4 a{
 	font-size: 1em;
@@ -625,7 +627,7 @@ i.fa.fa-quote-right {
 }
 .agile_events_grid_pos1 h5{
 	font-size: 1em;
-    color: #65b126;
+    color: #000000;
     font-weight: 600;
     position: relative;
 }
@@ -634,15 +636,15 @@ i.fa.fa-quote-right {
     padding-right: 0.5em;
 }
 .w3_agileits_event_head{
-	color:#65b126 !important;
+	color:#000000 !important;
 }
 .w3_agileits_event_head:after{
-	background:#65b126 !important;
+	background:#000000!important;
 }
 .agileits_w3layouts_events_grid_social,.agileits_w3layouts_events_grid_social1{
     position: absolute;
     top: 0%;
-    background: #a0d034;
+    background: #000000;
     padding: 1em;
 }
 .agileits_w3layouts_events_grid_social{
@@ -770,7 +772,7 @@ i.fa.fa-quote-right {
     text-transform: capitalize;
 }
 .agileinfo_footer_grid ul.w3layouts_footer_nav li a:hover{
-    color: #a0d034;
+    color: #000000;
 }
 .agileinfo_footer_grid_left{
 	float:left;
@@ -794,7 +796,7 @@ i.fa.fa-quote-right {
 }
 .agileinfo_footer_grid h3:after{
     content: '';
-    background: #a0d034;
+    background: #000000;
     width: 25%;
     height: 2px;
     position: absolute;
@@ -813,7 +815,7 @@ i.fa.fa-quote-right {
     font-size: .9em;
 }
 .w3_agileits_footer_copy p a{
-    color: #a0d034;
+    color: #000000;
     text-decoration: none;
 }
 .w3_agileits_footer_copy p a:hover{
@@ -838,7 +840,7 @@ i.fa.fa-quote-right {
 }
 .w3layouts_breadcrumbs_left ul li{
     display: inline-block;
-    color: #a0d034;
+    color: #000000;
     font-weight: 600;
 }
 .w3layouts_breadcrumbs_left ul li span{
@@ -863,7 +865,7 @@ i.fa.fa-quote-right {
     font-family: 'Roboto', sans-serif;
 }
 .w3layouts_breadcrumbs_left ul li a:hover{
-    color: #a0d034;
+    color: #000000;
 }
 .w3_agile_about_grid_left h3{
 	font-size:1.4em;
@@ -872,7 +874,7 @@ i.fa.fa-quote-right {
 	text-transform: capitalize;
 }
 .w3_agile_about_grid_left p i{
-	color:#a0d034;
+	color:#000000;
 	display:block;
 	margin:2em 0 1em;
 }
@@ -946,7 +948,7 @@ i.fa.fa-quote-right {
 }
 .agileinfo-button a:hover {
     color: #FFFFFF;
-    background: #a0d034;
+    background: #000000;
     border: solid 2px #FFFFFF;
 }
 /*-- //about-bottom --*/
@@ -969,14 +971,14 @@ i.fa.fa-quote-right {
 }
 .agileits_w3layouts_team_grid ul li i{
 	padding-right:1em;
-	color:#a0d034;
+	color:#000000;
 }
 .agileits_w3layouts_team_grid ul li a{
 	color:#212121;
 	text-decoration:none;
 }
 .agileits_w3layouts_team_grid ul li a:hover{
-	color:#a0d034;
+	color:#000000;
 }
 .agileits_w3layouts_team_grid h4{
 	font-size:1.3em;
@@ -988,7 +990,7 @@ i.fa.fa-quote-right {
 	text-decoration:none;
 }
 .agileits_w3layouts_team_grid h4 a:hover{
-	color:#a0d034;
+	color:#000000;
 }
 .agileits_w3layouts_team_grid h4 a:focus{
 	outline:none;
@@ -1233,7 +1235,7 @@ a.w3_agile_dribble:hover{
     cursor: pointer;
 } 
 .icon-box:hover {
-    background: #a0d034;
+    background: #000000;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -1279,7 +1281,7 @@ a.w3_agile_dribble:hover{
     word-wrap: break-word;
 }
 h3.icon-subheading {
-	color: #a0d034 !important;
+	color: #000000 !important;
     margin: 30px 0 15px;
     font-size: 1.3em;
     font-weight: 600;
@@ -1590,7 +1592,7 @@ h2.typoh2{
 .mail-grid-left h3 {
     font-size: 1.2em;
     margin: 0 0 .5em 0;
-    color: #a0d034;
+    color: #000000;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1619,7 +1621,7 @@ h2.typoh2{
     line-height: 1.8em;
 }
 .mail-grid-left p a{
-	color: #a0d034;
+	color: #000000;
     text-decoration: none;
 }
 .mail-grid-left p span {
@@ -1654,14 +1656,14 @@ h2.typoh2{
 .contact-form input[type="submit"] {
     outline: none;
     -webkit-appearance: none;
-    border: solid 2px #a0d034;
+    border: solid 2px #000000;
     font-size: .9em;
     color: #ffffff;
     font-weight: 600;
     padding: .7em 1em;
     text-decoration: none;
     letter-spacing: 1px;
-    background: #a0d034;
+    background: #000000;
     margin: 1em 0 0;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -1710,7 +1712,7 @@ h2.typoh2{
     margin-left: .5em;
 }
 .agileinfo-single-icons ul li span:hover{
-    color: #a0d034;
+    color: #000000;
 }
 .agileits-single-img p{
     color: #999999;
@@ -1750,8 +1752,8 @@ h2.typoh2{
     margin-top: .5em;
 }
 .reply a {
-    background: #a0d034;
-    border: solid 2px #a0d034;
+    background: #000000;
+    border: solid 2px #000000;
     padding: .5em 2em;
     color: #fff;
     font-size: .9em;
@@ -1825,8 +1827,8 @@ h2.typoh2{
     resize: none;
 }
 .w3_leave_comment input[type="submit"] {
-	background: #a0d034;
-    border: solid 2px #a0d034;
+	background: #000000;
+    border: solid 2px #000000;
     padding: .5em 2em;
     color: #fff;
     font-size: .9em;
@@ -2019,7 +2021,7 @@ h2.typoh2{
 		background-color: #fdfdfd;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background-color: #a0d034;
+		background-color: #000000;
 	}
 	.w3ls-button {
 		width: 50%;
